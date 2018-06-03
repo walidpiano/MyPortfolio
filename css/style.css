@@ -1,0 +1,324 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body, html, main {
+    margin: 0;
+    padding: 0;
+}
+nav, a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+header, nav, footer, section, article, div {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 12px 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    margin-bottom: 20px;
+}
+#logo-image {
+    height: 110px;
+    border-radius: 40%;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+}
+#header-container {
+    text-align: right;
+    float: right;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 68px;
+    color: #212121;
+    margin: 0;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Meera Inimai', sans-serif;
+    color: #212121;
+    margin: 0;
+}
+#background-image {
+    background-image: url(../img/main-picture.jpg);
+    max-width: 1150px;
+    height: 480px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: relative;
+}
+article {
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    bottom: 0;
+    padding: 5px 80px;
+    max-width: 1150px;
+    text-align: center;
+}
+
+h3 {
+    color: antiquewhite;
+    font-family: 'Meera Inimai', sans-serif;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 38px;
+    margin: 0 auto;
+}
+p, a {   
+    font-size: 25px;
+    font-weight: 300;
+}
+.introduction {
+    color: antiquewhite;
+    text-align: justify;
+}
+.introduction-link {
+    color: antiquewhite;
+}
+h4 {
+    font-family: 'Meera Inimai', sans-serif;
+    font-size: 45px;
+    margin: 12px 10px;
+    font-weight: normal;
+    color: #17405c;
+}
+.featured {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.featured-work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.first-project, .second-project {
+    margin-right: 12px;
+}
+.first-project, .second-project, .third-project {
+    width: calc(33.33% - 8px);
+}
+.project-image {
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+}
+h5 {
+    font-size: 33px;
+    color: #2d3c49;
+    margin: 5px auto;
+}
+.project-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer {
+    background: #212121;
+    padding: 5px;
+}
+ul {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    color: antiquewhite;
+    width: 100%;
+    margin: auto;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.contact-icon {
+    margin: auto;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact-me {
+    position: relative;
+    padding: 12px 20px;
+    display: inline;
+    color: antiquewhite;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    background: yellow;
+}
+
+@media screen and (max-width: 1055px) {
+    .project-link {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 970px) {
+    #logo-image {
+        height: 90px;
+    }
+    header {
+        padding: 10px 28px;
+    }
+    h1 {
+        font-size: 58px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p, a {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 40px;
+    }
+    .first-project {
+        margin-right: 20px;
+        width: calc(50% - 10px);
+    }
+    .second-project {
+        margin-right: 0;
+        width: calc(50% - 10px);
+    }
+    .third-project {
+        margin: 25px auto 0 auto;
+        width: calc(50% - 10px);
+    }
+    .contact-me {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 810px) {
+    #logo-image {
+        height: 80px;
+    }
+    header {
+        padding: 8px 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p, a {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 32px;
+    }
+    .first-project {
+        margin-right: 10px;
+        width: calc(50% - 5px);
+    }
+    .second-project {
+        margin-right: 0;
+        width: calc(50% - 5px);
+    }
+    .third-project {
+        margin: 25px auto 0 auto;
+        width: calc(50% - 5px);
+    }
+    .contact-me {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .contact-icon {
+        height: 18px;
+    }
+    #background-image {
+        height: 420px;
+    }
+    article {
+        padding: 10px 50px;
+    }
+}
+@media screen and (max-width: 645px) {
+    header {
+        margin-bottom: 10px;
+    }
+    .first-project, .second-project, .third-project {
+        margin: 10px auto 15px auto;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 510px) {
+    h1 {
+        font-size: 45px;
+    }
+    #logo-image {
+        height: 65px;
+    }
+    #background-image {
+        height: 350px;
+    }
+    article {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contact-me {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .first-project, .second-project, .third-project {
+        width: 90%;
+    }
+    .contact-me {
+        margin: 0;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header {
+        padding: 6px 10px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    #logo-image {
+        height: 55px;
+    }
+    article {
+        padding: 5px 10px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    p, a {
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 26px;
+    }
+    footer {
+        padding: 5px 0;
+    }
+}
