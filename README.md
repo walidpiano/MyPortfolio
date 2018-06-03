@@ -6,7 +6,7 @@ To open the project, just open [index.html](https://github.com/walidpiano/MyPort
 ## Installation
 
 1. The project has a simple website. It consists of one ```.html``` file and two folders (```img``` & ```css```).
-2. You just need to download the files, and then open the main page "[index.html] (https://github.com/walidpiano/MyPortfolio/blob/master/index.html).
+2. You just need to download the files, and then open the main page [index.html](https://github.com/walidpiano/MyPortfolio/blob/master/index.html).
 
 ## Application Running:
 Note that once you open the [index.html](https://github.com/walidpiano/MyPortfolio/blob/master/index.html):
